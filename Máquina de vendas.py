@@ -1,10 +1,10 @@
 def maquina(a, b, c, d, e):
     '''função principal da maquina (main)
     o início do programa, a lista aparece com os produtos
-    aquele 'if' ali diz se o produto ta indisponível, retornando False, ele chama a função compraNovam de novo
+    aquele 'if' ali diz se o produto ta indisponível, retornando False, ele chama a função compraNovamente de novo
     no 'nome, preco' ele associa a variavel nome e preço a x da função obternome
     no dinero ele vai descontar o dinheiro na função receberdinheiro
-    e no final da função maquina, ela chama a função compraNovam para repetir o processo de compra.'''
+    e no final da função maquina, ela chama a função compraNovamente para repetir o processo de compra.'''
     limpaTela()
     mostrarlista(a, b, c, d, e)
     x=int(input('Escolha um produto: '))
