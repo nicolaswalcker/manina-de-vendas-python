@@ -1,2 +1,2 @@
-# manina-de-vendas-python
-Exercício feito no primeiro semestre da graduação de Ciência da Computação.
+# Máquina de vendas (Python)
+
