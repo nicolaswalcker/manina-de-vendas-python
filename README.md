@@ -1,2 +1,7 @@
 # Máquina de vendas (Python)
 
+
+
+
+
+
