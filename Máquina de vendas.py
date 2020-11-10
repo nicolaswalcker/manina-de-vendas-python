@@ -8,6 +8,9 @@ def maquina(a, b, c, d, e):
     limpaTela()
     mostrarlista(a, b, c, d, e)
     x=int(input('Escolha um produto: '))
+    if x > 5:
+        maquina(a, b, c, d, e)
+        
     if verestoque(a, b, c, d, e, x) == False:
         print('\nProduto indisponível')
         compraNovamente(a, b, c, d, e, x)
@@ -73,6 +76,7 @@ def obternome(n):
         print('\nVocê escolheu Leite')
         print('Preço: R$ 3,50\n')
         return 'Leite', 3.50
+
 
 def troco(n):
     '''a função troco que foi a mais demorada, pega o valor dado pelo cliente e verifica os valores
